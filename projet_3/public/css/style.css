@@ -1,0 +1,44 @@
+body{
+    background-image: url('../images/background.jpg');
+    margin:0;
+    padding:0; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+
+}
+.titre{
+    text-align:center;
+   background-color:black;
+   color:rgb(137, 161, 170); 
+}
+
+.news{
+    background-color:#F0FFFF;
+}
+.resume{
+    margin:auto;
+    background-color:#F0FFFF;
+}
+.col-lg-1 button{
+    background-color:#B22222;
+    margin-top:25%;
+    border-color:#8B0000;
+    color:white;
+}
+.send{
+    background-color:#B22222;
+    border-color:#8B0000;
+    color:white;
+    margin-left:10%;  
+}
+.back{
+    color:#191970
+}
+.titreComment{
+    background-color:black;
+    color:rgb(137, 161, 170);
+    margin-bottom:0;
+}
+.comment{
+    background-color:#F0FFFF;
+}
