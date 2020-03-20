@@ -17,7 +17,7 @@
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="/socket.io/socket.io.js"></script>
         <script>
-            var socket = io.connect('http://localhost:8080');
+            var socket = io.connect('https://yodana.netlify.com/projet_4/index.html');
             var pseudo = prompt("Quel est le pseudo ?");
             socket.emit('petit_nouveau', pseudo);
             socket.on('petit_nouveau', function (pseudo){
