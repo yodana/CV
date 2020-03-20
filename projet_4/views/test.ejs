@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1>TO DO LIST</h1>
+<ul>
+    <%
+        var i = 0; 
+        while(liste[i])
+        {%>
+            <li>
+           <%=i%>
+           </li>
+           <%i++;
+        }   %>   
+</ul>
+<form method="post" action="/">
+    <p><input type="text" name="listes" /></p>
+    <input type="submit" value="Envoyer" />
+</form>
+</body>
